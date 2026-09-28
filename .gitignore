@@ -1,0 +1,8 @@
+# Lean 构建缓存（可重建，勿入库）
+.lake/
+
+# 内部工作/调试文件（非考官必需）
+_archive/
+STATUS.md
+*.log
+gen_manifest.py

@@ -1,0 +1,19 @@
+name = "Jsp000301"
+version = "0.1.0"
+keywords = ["math"]
+defaultTargets = ["Jsp000301"]
+
+[leanOptions]
+pp.unicode.fun = true
+relaxedAutoImplicit = false
+weak.linter.mathlibStandardSet = true
+maxSynthPendingDepth = 3
+
+# Mathlib 锁定到 Lean 4.34.0 窗口的 commit（与工具链同版本，olean 兼容）
+[[require]]
+name = "mathlib"
+scope = "leanprover-community"
+rev = "ba22a8986c7bb38a6f340cc151b98692dc4ce6bf"
+
+[[lean_lib]]
+name = "Jsp000301"
