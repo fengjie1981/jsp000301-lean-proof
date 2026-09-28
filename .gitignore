@@ -6,3 +6,6 @@ _archive/
 STATUS.md
 *.log
 gen_manifest.py
+
+# 工作区元数据
+.workbuddy/
